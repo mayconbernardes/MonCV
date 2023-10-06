@@ -61,7 +61,7 @@ body{
     color: #fff;
     font-size: 1.5em;
     margin-top: 20px;
-    text-transform: uppercase;
+    
     text-align: center;
     font-weight: 100;
     line-height: 1.4em;
@@ -264,10 +264,15 @@ span
     font-style: italic;
     font-size: 15px;
 }
-a{
+a
+{
     color: rgb(6, 136, 235);
 }
-    
+   
+strong
+{
+text-decoration: underline;
+}
 
 @media (max-width: 1000px){
     .container{
