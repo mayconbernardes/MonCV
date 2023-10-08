@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
 }
 body{
     background:lightblue;
@@ -70,8 +71,7 @@ body{
 h2{
     font-size: 20px;
     font-weight: 600;
-    font-synthesis-style: ;
-    padding-top: 50px;
+padding-top: 50px;
 }
 
 .contactInfo{
@@ -272,6 +272,10 @@ strong
 {
 text-decoration: underline;
 }
+
+.icon-text {
+    margin-left: 0.5em; /* Adjust as needed */
+  }
 
 @media (max-width: 1000px){
     .container{
